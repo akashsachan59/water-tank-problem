@@ -1,0 +1,9 @@
+body {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+}
+svg {
+  background: #fff;
+  display: block;
+}
