@@ -13,7 +13,7 @@ function waterArea (array, showWalls) {
     svg.setAttribute('viewBox', `0 0 ${svgDimension} ${svgDimension}`)
     // add border to svg
     svg.style.border = '1px solid black'
-    svg.style.marginTop = '32px'
+    svg.style.marginTop = '20px'
     document.getElementById('graph-container').appendChild(svg);
 
     while (left <= right) {
